@@ -1,0 +1,109 @@
+body{
+    background-color: rgb(33, 37, 37);
+    color: #ffbb00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+img {
+    width: 200px;
+    height: auto;
+    animation: girar 4s linear infinite; 
+}
+
+@keyframes girar {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.foto {
+    width:180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 3px solid black;
+    margin-top: -60%;
+    object-fit: cover;
+}
+
+
+.card{
+    text-align: center;
+    width: 600px;
+    height: 900px;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 10px 30px black;
+    padding-bottom:30px ;
+    border-radius: 70px;
+    overflow: hidden;
+}
+.banner{
+    border-radius: 20px;
+    background: linear-gradient(to top right, black,rgb(163, 163, 3), 
+     black);
+    height:200px;
+}
+
+.bio{
+    font-size: 1.7rem;
+    color: #fffefe;
+    padding: 0px 20px;
+    margin-bottom: 10px;
+    margin-top: -10px;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 0 30px;
+}
+.botao{
+    text-decoration: none;
+    color: #000000;
+    background: #d9ff00;
+    padding: 12px;
+    font-weight: 10000px;
+    border-radius: 10px;
+    box-shadow:4px 4px 0px #575050;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.botaox{
+    text-decoration: none;
+    color: #000000;
+    background: #ceb525;
+    padding: 12px;
+    font-weight: 10000px;
+    border-radius: 10px;
+    box-shadow:4px 4px 0px #575050;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.botao:hover{
+    background: #ffffff;
+    color: #000000;
+    transform: scale(1.05);
+    box-shadow: 0px 20px 15px #130e0e;
+    border-radius: 0 20px 0 20px;
+}
+  
+.botaox:hover{
+    background: #ffffff;
+    color: #000000;
+    transform: scale(1.05);
+    box-shadow: 0px 20px 15px #130e0e;
+    border-radius: 0 20px 0 20px;
+}
+
